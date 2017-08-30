@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Shooter</title>
+    <link rel="stylesheet" href="style/style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+      <!-- on press, resets interval and adds 10 points -->
+        <div id ="square" class="square" onclick=" addPoints(); moveSquare();">
+
+        </div>
+    </div>
+    <div class="description">
+      <h1>Shooter!</h1>
+    <p class="showRandNum">
+        Y Position: <span id="randNumY"></span><br />
+        X Position: <span id="randNumX"></span><br />
+        Points: <span id="points"></span><br />
+        Level: <span id="level"></span>
+    </p>
+    <p>
+      Welcome to "Shooter" Game!
+    </p>
+    <p>
+      Your objective is simple... <br />
+      click the blue square and get points!<br />
+    </p>
+    <p>
+      <h3>Game Rules:</h3>
+      Each click gives you 10 pts.<br />
+      didn't manage to click the square on time? You lose 5 points...<br /><br />
+      For every 100 pts you get, the difficulty is getting harder!<br /><br />
+
+      <h4>Good Luck!</h4>
+    </p>
+  </div>
+
+</body>
+<script src="js/script.js" charset="utf-8"></script>
+</html>

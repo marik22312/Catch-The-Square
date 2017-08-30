@@ -1,0 +1,28 @@
+.container {
+  height: 600px;
+  width: 600px;
+  position: relative;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+.square {
+  height: 50px;
+  width: 50px;
+  background-color: blue;
+  border: 1px solid black;
+  left: 0;
+  top:0;
+  display: inline-block;
+  position: absolute;
+}
+
+.showRandNum {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.description {
+  display: inline-block;
+  vertical-align: top;
+}
